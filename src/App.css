@@ -10,16 +10,7 @@ a {
   text-decoration: none !important;
 }
 
-.offers {
-  background: url("./assets/images/home_background.jpg") no-repeat fixed;
-  height: 80vh;
-  width: 100%;
-  background-size: cover;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  background-position: right;
-}
+
 
 .offers::before,
 .limitedOffer::before {
