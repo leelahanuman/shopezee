@@ -4,7 +4,7 @@ import { Outlet } from "react-router-dom";
 // import MinimalLayout from '../app/Layout/MinimalLayout'
 
 const RegisterPage = lazy(() => import("../screens/Register/index"));
-const LoginComponent = lazy(() => import("../screens/Login/index"));
+const LoginComponent= lazy(() => import("../screens/Login/index"));
 
 const LoginRoutes = {
   path: "/auth",
